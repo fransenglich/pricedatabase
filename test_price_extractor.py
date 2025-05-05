@@ -8,7 +8,7 @@ import price_extractor
 # We pickle and check the DataFrames, but formatting of data
 # in the outputted Excel file might be wrong, so manually
 # checking it is also necessary.
-class TestPrice(unittest.TestCase):
+class TestPriceExtractor(unittest.TestCase):
 
     test_cases = [
                   # Somewhat atomic.
